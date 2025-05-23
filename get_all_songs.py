@@ -39,7 +39,7 @@ def process_link(link, driver):
         print("| ".join(song))
     print()
 
-url = input()
+url = input("Enter Music League URL: ")
 driver = webdriver.Firefox()
 driver.get(url)
 wait = WebDriverWait(driver, 3600)

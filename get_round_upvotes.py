@@ -103,7 +103,7 @@ def process_link(driver):
 
     return data
 
-url = input()
+url = input("Enter Round URL: ")
 driver = webdriver.Firefox()
 driver.get(url)
 wait = WebDriverWait(driver, 3600)
